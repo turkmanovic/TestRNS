@@ -5,7 +5,7 @@
 #define DEBOUNCE_MS 20
 #define GPIO_PIN GPIO_PIN3
 #define CONSTANT 33
-#define CONSTANT1 33
+#define CONSTANT1 500
 
 
 void main()
