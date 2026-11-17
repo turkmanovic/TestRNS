@@ -6,11 +6,12 @@
 #define CONSTANT 33
 #define CONSTANT1 36
 
-
+#include "lib.c"
 
 void main()
 {
   UART_Init();
+  hello();
   while(1)
   {
         LED_Toggle(LED_PIN);
